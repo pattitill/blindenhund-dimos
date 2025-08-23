@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>go2_bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup package for Unitree Go2 with Gazebo, Nav2, SLAM and DimOS bridge</description>
+  <maintainer email="patrick.pavlovic@stud.uni-due.de">Patrick</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>go2_gazebo</exec_depend>
+  <exec_depend>go2_navigation</exec_depend>
+  <exec_depend>dimos_ros_bridge</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

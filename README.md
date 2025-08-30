@@ -74,9 +74,3 @@ Das Endziel ist ein **autonomer Blindenhund-Roboter**, der in einer realistische
 5. Interagiert über Sprache mit dem Nutzer  
 6. Führt die Person sicher ans Ziel  
 
----
-
-👉 Diese README gibt jedem (und auch ChatGPT) einen klaren Überblick:  
-- **Was das Ziel ist** (Blindenhund-Roboter mit KI)  
-- **Wie die Struktur aufgebaut ist** (DimOS + ROS2 Workspaces)  
-- **Welche Technologien im Spiel sind**  

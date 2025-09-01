@@ -38,19 +38,19 @@ def generate_launch_description():
     )
 
     # 4. DimOS Bridge starten
-    bridge_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory('dimos_ros_bridge'),
-                'launch',
-                'dimos_bridge.launch.py'
-            )
-        )
-    )
+    #bridge_launch = IncludeLaunchDescription(
+     #   PythonLaunchDescriptionSource(
+      #      os.path.join(
+       #         get_package_share_directory('dimos_ros_bridge'),
+        #        'launch',
+         #       'dimos_bridge.launch.py'
+          #  )
+     #   )
+    #)#
 
     return LaunchDescription([
         gazebo_launch,
         slam_launch,
-        nav2_launch,
-        bridge_launch
+        nav2_launch
+        # bridge_launch
     ])

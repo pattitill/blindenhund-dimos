@@ -21,7 +21,7 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    this_package = FindPackageShare('go2_config')
+    this_package = FindPackageShare('go2_navigation')
 
     default_params_file_path = PathJoinSubstitution(
         [this_package, 'config/autonomy', 'slam.yaml']

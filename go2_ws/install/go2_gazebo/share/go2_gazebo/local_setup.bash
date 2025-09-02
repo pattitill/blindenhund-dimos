@@ -1,0 +1,1 @@
+/home/linda/blindenhund-dimos/go2_ws/build/go2_gazebo/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/linda/blindenhund-dimos/go2_ws/src/go2_bringup/launch/full_sim.launch.py

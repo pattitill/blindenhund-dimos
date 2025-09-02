@@ -1,0 +1,24 @@
+[2.191s] Invoking command in '/home/linda/blindenhund-dimos/go2_ws/build/go2_bringup': PYTHONPATH=/home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/build --no-deps symlink_data
+[2.850s] running develop
+[3.286s] running egg_info
+[3.286s] creating go2_bringup.egg-info
+[3.286s] writing go2_bringup.egg-info/PKG-INFO
+[3.287s] writing dependency_links to go2_bringup.egg-info/dependency_links.txt
+[3.287s] writing requirements to go2_bringup.egg-info/requires.txt
+[3.287s] writing top-level names to go2_bringup.egg-info/top_level.txt
+[3.288s] writing manifest file 'go2_bringup.egg-info/SOURCES.txt'
+[3.289s] reading manifest file 'go2_bringup.egg-info/SOURCES.txt'
+[3.290s] writing manifest file 'go2_bringup.egg-info/SOURCES.txt'
+[3.293s] running build_ext
+[3.294s] Creating /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2-bringup.egg-link (link to .)
+[3.296s] 
+[3.296s] Installed /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup
+[3.297s] running symlink_data
+[3.297s] creating /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/ament_index
+[3.297s] creating /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/ament_index/resource_index
+[3.297s] creating /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+[3.298s] symbolically linking /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/resource/go2_bringup -> /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+[3.298s] symbolically linking /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/package.xml -> /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/go2_bringup
+[3.299s] creating /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/go2_bringup/launch
+[3.300s] symbolically linking /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/launch/full_sim.launch.py -> /home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/share/go2_bringup/launch
+[3.351s] Invoked command in '/home/linda/blindenhund-dimos/go2_ws/build/go2_bringup' returned '0': PYTHONPATH=/home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/linda/blindenhund-dimos/go2_ws/install/go2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/linda/blindenhund-dimos/go2_ws/build/go2_bringup/build --no-deps symlink_data

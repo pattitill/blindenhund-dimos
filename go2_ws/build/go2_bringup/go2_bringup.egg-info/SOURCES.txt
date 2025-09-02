@@ -1,0 +1,10 @@
+package.xml
+setup.py
+go2_bringup.egg-info/PKG-INFO
+go2_bringup.egg-info/SOURCES.txt
+go2_bringup.egg-info/dependency_links.txt
+go2_bringup.egg-info/requires.txt
+go2_bringup.egg-info/top_level.txt
+go2_bringup.egg-info/zip-safe
+launch/full_sim.launch.py
+resource/go2_bringup

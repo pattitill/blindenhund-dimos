@@ -21,20 +21,23 @@ def generate_launch_description():
     description_path = LaunchConfiguration("description_path")
     base_frame = "base_link"
 
-    config_pkg_share = launch_ros.substitutions.FindPackageShare(
-        package="go2_config"
-    ).find("go2_config")
+    nav_pkg_share = launch_ros.substitutions.FindPackageShare(
+        package="go2_navigation"
+    ).find("go2_navigation")
     descr_pkg_share = launch_ros.substitutions.FindPackageShare(
         package="go2_description"
     ).find("go2_description")
-    joints_config = os.path.join(config_pkg_share, "config/joints/joints.yaml")
+    gaz_pkg_share = launch_ros.substitutions.FindPackageShare(
+        package="go2_gazebo"
+    ).find("go2_gazebo")
+    joints_config = os.path.join(nav_pkg_share, "config/joints/joints.yaml")
     ros_control_config = os.path.join(
-        config_pkg_share, "/config/ros_control/ros_control.yaml"
+        nav_pkg_share, "/config/ros_control/ros_control.yaml"
     )
-    gait_config = os.path.join(config_pkg_share, "config/gait/gait.yaml")
-    links_config = os.path.join(config_pkg_share, "config/links/links.yaml")
+    gait_config = os.path.join(nav_pkg_share, "config/gait/gait.yaml")
+    links_config = os.path.join(nav_pkg_share, "config/links/links.yaml")
     default_model_path = os.path.join(descr_pkg_share, "xacro/robot.xacro")
-    default_world_path = os.path.join(config_pkg_share, "worlds/default.world")
+    default_world_path = os.path.join(gaz_pkg_share, "worlds/default.world")
 
     declare_use_sim_time = DeclareLaunchArgument(
         "use_sim_time",
